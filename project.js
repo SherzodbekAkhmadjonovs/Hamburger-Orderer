@@ -18,7 +18,7 @@ decrBtn.addEventListener('click', () => {
 
 let showBuyContainer = () =>{
     if(counter !==0){
-        buy_container.style.transform = "translateY(0)"; 
+        buy_container.style.transform = "translateY(-5px)"; 
     }
     else buy_container.style.transform = "translateY(-40px)"
 }
